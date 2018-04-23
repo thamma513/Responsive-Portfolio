@@ -215,4 +215,32 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
+@media screen and (max:width 980px){
+
+}
+@media screen and (max:width 768px){
+h1{
+  font-size: 25px;
+}
+p{
+  font-size: 18px;
+}
+}
+@media screen and (max:width 640px){
+  #masthead{
+    position: static;
+  }
+  .main-selection{
+    float: none;
+  }
+  .work{
+    float: none;
+  }
+  h1{
+    font-size: 18px;
+  }
+  p{
+    font-size: 12px;
+  }
+
+}
